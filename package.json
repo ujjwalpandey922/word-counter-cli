@@ -1,0 +1,27 @@
+{
+  "name": "@ujjwalpandey922/word-counter-cli",
+  "version": "1.0.0",
+  "description": "Count total words, unique words and word frequency in any text file",
+  "license": "ISC",
+  "author": "Ujjwal Pandey",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "word-counter-cli": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "cli",
+    "word-count",
+    "word-counter",
+    "text"
+  ],
+  "engines": {
+    "node": ">=14.8"
+  }
+}
